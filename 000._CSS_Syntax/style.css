@@ -1,0 +1,17 @@
+/* h1 => selector
+color => property
+red => value */
+h1{
+    color: red; /*=> Declaration*/
+    font-size: 60px; /*=> Declaration*/
+}
+p{
+    color: blue;
+    font-size: 18px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
