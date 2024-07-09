@@ -1,11 +1,22 @@
+/* *{
+    margin: 0;
+    color: wheat;
+    padding: 0;
+} */
 /* h1 => selector
 color => property
 red => value */
-h1{
-    color: red; /*=> Declaration*/
-    font-size: 60px; /*=> Declaration*/
-}
-p{
+/*
+* => Universal selector
+. => class selector
+# => ID selector
+, => Group
+*/
+/*h1{
+    color: red; 
+    font-size: 60px; 
+}=> Declaration*/
+/* p{
     color: blue;
     font-size: 18px;
 }
@@ -14,4 +25,35 @@ div{
     height: 200px;
     background-color: aqua;
     margin-bottom: 20px;
+}
+div p{
+    color: black;
+}
+.text-bk{
+    color: red;
+    text-align: center;
+    background: aqua;
+}
+.first-div{
+    background: blue;
+}
+.first-div p{
+    color: white;
+}
+#big_div 
+#big_div_2
+.first-div 
+{
+    width: 400px;
+} */
+
+
+h1{
+    color: aqua;
+    color: #000979;
+    color: #000000;
+    color: #0000ff;
+    color: #00ff00;
+    color: #ff0000;
+    color: #ff5745;
 }
