@@ -1,0 +1,19 @@
+h1{
+    /* border-style: outset;
+    border-width: 10px; */
+    border-color: aquamarine;
+
+    /* Shorthanded */
+    /* border: 5px solid aqua;
+    border-radius: 10px; */
+
+    border-left: 5px solid greenyellow;
+    border-right: 5px solid greenyellow;
+    border-top: 5px solid greenyellow;
+    border-bottom: 5px solid greenyellow;
+
+    border-left-style: dotted;
+    border-right-style: dashed;
+    border-top-style: double;
+    border-bottom-style: groove;
+}
