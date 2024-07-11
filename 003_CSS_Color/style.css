@@ -1,0 +1,14 @@
+body{
+    background: url(hill.jpg);
+}
+h1{
+    color: aqua ;
+    color: #000000;
+    color: #0000ff;
+    color: #00ffff;
+    color: #ffffff;
+    color: #ff00ff;
+    color: #57b7ab;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 0, 0.3);
+}
