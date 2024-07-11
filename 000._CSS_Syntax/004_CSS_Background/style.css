@@ -56,4 +56,26 @@ h1{
     color: #00ff00;
     color: #ff0000;
     color: #ff5745;
+    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 0, 0.3);
+    color: #ff5745;
+    color: #16a085;
+}
+body{
+    background: url(hill.jpg);
+    background-attachment: fixed;
+}
+div{
+    background-color: lightcoral;
+    background-image: url(CSS3.png);
+    background-size: 150px 150px;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    background-position: center right;
+    /* background-position: left 25px;
+    background-position: 50px 25px; */
+
+    background: #f78fb3 url(CSS3.png) no-repeat center;
 }
