@@ -1,0 +1,55 @@
+/* 
+h1 => Selector
+color => Property
+red => value 
+* => Universal Selector
+. => Class Selector
+# => ID Selector
+, => Grouping
+*/
+
+*{
+    margin: 0;
+    color: wheat;
+    padding: 0;
+}
+h1{
+    color: red; /* =>Declaration */
+    font-size: 60px; /* =>Declaration */
+}
+p{
+    color: blue;
+    font-size: 18px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    margin-bottom: 10px;
+}
+div p{
+    color: black;
+}
+.text-bk{
+    color: red;
+    text-align: center;
+    background: aqua;
+    margin: 20px;
+}
+.first-div{
+    background: blue;
+}
+.first-div p{
+    color: aliceblue;
+}
+.first-div p{
+    color: black;
+}
+#big-div{
+    width: 400px;
+}
+#big-div,
+#big-div-2,
+.first-div{
+    width: 400px;
+}
