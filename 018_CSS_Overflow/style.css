@@ -1,0 +1,16 @@
+div{
+    background: #2d3436;
+    color: cadetblue;
+    padding: 20px 5%;
+    overflow: visible;
+    width: 90%;
+    height: 200px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    overflow-x: hidden ;
+    overflow-y: scroll;
+}
+p{
+    width: 600px;
+}
