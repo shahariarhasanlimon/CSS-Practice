@@ -1,0 +1,33 @@
+p{
+    color: blueviolet;
+}
+/* descendant Selector */
+div p{
+    font-weight: bold;
+}
+div > p{
+    color: tomato;
+}
+/* Adjacent Sibling Selector (Div sesh howar porer txt)*/
+div + P{
+    /* Select 1 p */
+    color: blue;
+
+}
+div ~ P{
+    /* select all p */
+    color: yellow;
+}
+section + p{
+    color: green;
+}
+section ~ p{
+    color: green;
+}
+
+.parent p{
+    color: black;
+}
+.parent > p{
+    color: aqua;
+}
