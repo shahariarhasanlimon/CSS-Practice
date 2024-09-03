@@ -1,3 +1,50 @@
 a:hover{
     color: red;
 }
+a:visited{
+    color:green
+}
+li{
+    font-size: large;
+}
+/* li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+    color: yellow;
+} */
+
+li:nth-child(3){
+    color: brown;
+}
+body{
+    background: aqua;
+    background-image: url(background.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ /* : pseudo-element
+ :: pseudo-class */
+ body::before{
+    content: "Element";
+    background-image: url(background.jpg);
+    background-size: 100px 300px;
+}
+body::after{
+    content: "Element";
+    background-image: url(background.jpg);
+    background-size: 100px 300px;
+}
+p::first-line{
+    color: white;
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 65px;
+}
+p::selection{
+    background: tomato;
+    color: aliceblue;
+}
+
